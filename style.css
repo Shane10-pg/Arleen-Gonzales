@@ -1,0 +1,414 @@
+body {
+    background-color: #fff0f5;
+    font-family: Arial, sans-serif;
+    color: #444444;
+    margin: 0;
+    padding: 0;
+    background-image: url("pink.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    background-color: #e88bb5;
+    color: white;
+    padding: 15px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: white;
+    font-size: 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav li {
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.head {
+    background-color: white;
+    margin: 25px;
+    padding: 50px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 15px;
+    gap: 30px;
+}
+
+.intro {
+    width: 60%;
+}
+
+.profile {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile img {
+    width: 320px;
+    height: 350px;
+    border-radius: 30px;
+    border: 5px solid pink;
+}
+
+
+@media (max-width: 600px) {
+    .head {
+        flex-direction: column;
+        text-align: center;
+        padding: 25px;
+        margin: 10px;
+    }
+
+    .intro {
+        width: 100%;
+    }
+
+    .profile {
+        width: 100%;
+    }
+
+    .profile img {
+        width: 200px;
+        height: 230px;
+    }
+}
+
+
+h1 {
+    color: #d45d91;
+    font-size: 36px;
+}
+
+h2 {
+    color: #d45d91;
+    font-size: 26px;
+}
+
+h3 {
+    color: #b34c7d;
+    font-size: 20px;
+}
+
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+button {
+    background-color: #e88bb5;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+
+.box {
+    background-color: white;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.box1 {
+    background-color: white;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.skill {
+    background-color: #fff0f5;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+.hobby {
+    background-color: #fff0f5;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+.project {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin: 25px 0;
+    padding: 20px;
+    background-color: #fff5f9;
+    border-radius: 15px;
+}
+
+.project img {
+    width: 280px;
+    height: 180px;
+    border: 5px solid #f3a6cb;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.project-text {
+    flex: 1;
+}
+
+.project-text h3 {
+    color: #d45d91;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.project-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+
+    .project {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .project img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+.website-images {
+    display: flex;
+    gap: 10px;
+}
+
+.website-images img {
+    width: 100px;
+    height: 80px;
+    border: 3px solid #f3a6cb;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #e88bb5;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer h2 {
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+
+    body {
+        padding-top: 90px;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        gap: 8px;
+    }
+
+    nav h2 {
+        font-size: 23px;
+        margin: 0;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+
+    nav li {
+        margin: 0;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    
+.profile {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.intro {
+    width: 100%;
+    text-align: center;
+}
+
+.profile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile img {
+    width: 320px;
+    height: 350px;
+    border-radius: 30px;
+    border: 5px solid pink;
+    object-fit: cover;
+}
+
+    .head img {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    .button-group {
+        flex-wrap: wrap;
+    }
+}
+.button-group button,
+.about-button {
+    background-color: #d45d91;
+    color: white;
+    padding: 12px 20px;
+    border: 2px solid #d45d91;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.about-button {
+    background-color: white;
+    color: #d45d91;
+}
+
+.button-group button:hover,
+.about-button:hover {
+    background-color: #f3a6cb;
+    color: white;
+}
+
+.back-to-top {
+    display: inline-block;
+    background-color: white;
+    color: #d45d91;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.back-to-top:hover {
+    background-color: #fff0f5;
+    color: #b34c7d;
+}
+
+#theme-toggle {
+    background-color: white;
+    color: #d45d91;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+body.dark-mode {
+    background-color: #222222;
+    background-image: none;
+    color: white;
+}
+
+body.dark-mode nav,
+body.dark-mode footer {
+    background-color: #333333;
+}
+
+body.dark-mode .head,
+body.dark-mode .box,
+body.dark-mode .box1 {
+    background-color: #383838;
+    color: white;
+}
+
+body.dark-mode .skill,
+body.dark-mode .hobby,
+body.dark-mode .project {
+    background-color: #494949;
+    color: white;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3 {
+    color: #f3a6cb;
+}
+
+body.dark-mode p {
+    color: #eeeeee;
+}
+
+body.dark-mode #theme-toggle {
+    background-color: #d45d91;
+    color: white;
+    border-color: #d45d91;
+}
